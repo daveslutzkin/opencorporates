@@ -1,0 +1,24 @@
+{
+  "bot_id": "mission_719_daveslutzkin",
+  "title": "NZ FSPR Scraper",
+  "description": "Scrapes the basic information from the NZ FSPR",
+  "language": "ruby",
+  "data_type": "primary data",
+  "identifying_fields": [
+    "number"
+  ],
+  "company_fields": {
+    "name": "company"
+  },
+  "files": [
+    "scraper.rb",
+    "nz_scraper.rb"
+  ],
+  "frequency": "monthly",
+  "publisher": {
+    "name": "NZ Companies Office: Financial Service Providers Register",
+    "url": "http://www.business.govt.nz/fsp",
+    "terms": "Crown copyright",
+    "terms_url": "http://www.business.govt.nz/fsp/about-this-site/copyright"
+  }
+}
